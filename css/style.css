@@ -1,0 +1,415 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    position: relative;
+
+}
+body {
+    position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* nav */
+nav{
+    overflow: auto;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ul {
+    width: 50%;
+    float: right;
+    text-align: right;
+    padding-right: 100px;
+}
+.h1 {
+    width: 50%;
+    float: left;
+    padding-left: 100px;
+    font-size: 25px;
+}
+.coffees {
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.home {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 12px;
+}
+.homer {
+ color: black;
+ text-decoration: none;
+}
+.nav1 {
+    color: #321a26;
+    text-decoration: none;
+}
+/* home */
+.homie {
+    width: 2000px;
+    height: 500px;
+    position: relative;
+    clear: both;
+    background-image: url(../images/atf-image.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+/*Banner*/
+.taste {
+    padding-left: 100px;
+    display: block;
+    font-size: 50px;
+    position: relative;
+    top: 100px;
+    opacity: 70%;
+    text-transform: uppercase;
+}
+.taste span{
+    position: relative;
+    text-transform: uppercase;
+    padding-left: 100px;
+    font-size: 50px;
+    color: rgb(104, 219, 104);
+    top: -5px;
+}
+.lorem {
+    position: relative;
+    padding-left: 100px;
+    top: 90px;
+    font-weight: 0;
+    opacity: 70%;
+    font-style: italic;
+}
+.learn {
+    position: relative;
+    top: 115px;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-left: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* ads */
+.ads {
+    overflow: auto;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+.box {
+    width: 49.5%;
+    float: left;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    background-color: #312a26;
+    position: relative;
+    margin-top: 60px;
+}
+.box:nth-child(1) {
+    background-image: url(../images/merchandise1.jpg);
+}
+.box:nth-child(2) {
+    background-image: url(../images/merchandise2.jpg);
+    margin-left: 10px;
+}
+.text h3 {
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    color: white;
+    font-weight: lighter;
+    margin-top: 80px;
+    margin-left: 60px;
+}
+.text a {  
+    color: white;
+    line-height: 30px;
+    margin-left: 60px;
+}
+/* Merchandise 1 */
+.happening {
+    font-style: italic;
+    text-align: center;
+    text-decoration: none;
+    color: burlywood;
+}
+.house {
+    text-align: center;
+    letter-spacing: 5px;
+}
+.hr1 {
+    border: solid 1px #c7a17a;
+    width: 10%;
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+/* ads 1 */
+.box2 {
+    margin: 5px;
+    display: inline-flex;
+    max-width: 100%;
+    margin-left: 17%;
+}
+.product {
+    padding-left: 10px;
+}
+/* ads2 */
+.box3 {
+    margin: 5px;
+    display: inline-flex;
+    max-width: 100%;
+    margin-left: 17%;
+}
+.product {
+    padding-left: 10px;
+    
+}
+/* ads3 */
+.ban1 {
+    margin: 65px;
+    border: 80px;
+    padding-bottom: 300px;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.ban2 {
+    margin-left: auto;
+    margin-right: auto;
+    border: 30px;
+    padding: 130px;
+    text-align: center;
+}
+.what {
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #c7a17a;
+    text-align: center;
+}
+.gift {
+    color: white;
+    letter-spacing: 3px;
+}
+.Read {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    position: relative;
+    margin: 30px;
+    border-bottom: 10px;
+    padding: 10px;
+    width: 80px;
+    font-size: 15px;
+    font-weight: 700;
+}
+/* Merchandise2 */
+.happ {
+    font-style: italic;
+    text-align: center;
+    text-decoration: none;
+    color: burlywood;
+    letter-spacing: 1px;
+    margin-top: -300px;
+}
+.sale {
+    text-align: center;
+    letter-spacing: 5px;
+}
+.hr2 {
+    border: solid 1px #c7a17a;
+    width: 10%;
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+/* Merch Products */
+.box4 {
+    margin: 5px;
+    display: inline-flex;
+    max-width: 100%;
+    margin-left: 17%;
+}
+.productss {
+    padding-left: 10px;
+}
+/* 4 Pics */
+.box1{
+    width: 49.5%;
+    float: left;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-color: #312a26;
+    position: relative;
+    margin-top: 10px;
+}
+.box1:nth-child(1){
+    background-image: url(../images/merchandise3.jpg);
+}
+.box1:nth-child(2){
+    background-image: url(../images/merchandise4.jpg);
+    margin-left: 10px;
+}
+.box1:nth-child(3){
+    background-image: url(../images/merchandise5.jpg);
+}
+.box1:nth-child(4){
+    background-image: url(../images/merchandise6.jpg);
+    margin-left: 10px;
+}
+.reservation {
+    overflow: auto;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form {
+    width: 49.5%;
+    float: left;
+    background-position: center;
+    background-color: #757575;
+    position: relative;
+    padding: 30px;
+    font-size: small;
+    line-height: 1.6;
+    border-radius: 5px;
+}
+.form:nth-child(1), 
+.form:nth-child(3) {
+    margin-right: 1%;
+}
+.form:nth-child(1) {
+    background-color: rgb(226, 226, 226);
+}
+.form:nth-child(2) {
+    background-color: rgb(226, 226, 226);
+}
+.form-content input {
+    width: 100%;
+    height: 25px;
+}
+.text {
+    text-align: center;
+}
+.text p, .text label {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+.form-credit label, .form-credit input {
+    width: 100%;
+    height: 25px;
+}
+.agree {
+    margin-top: 10px;
+}
+.send {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    text-decoration: none;
+    width: 100%;
+    margin-top: 5px;
+    border-radius: 3px;
+}
+* Footer Area */
+footer .footer-container {
+    width: 100%;
+    padding: 50px ;
+    position: relative;
+    top: -50px;
+}
+
+/* Footer 1*/
+footer .row {
+    background-image: url(../images/footer-img.jpg);
+    background-size: contain;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 100%;
+}
+footer .footer-column {
+    width: 25%;
+    padding-top: 40px;
+    padding-left: 60px;
+    line-height: 1.2;
+}
+footer .footer-column h3,
+.footer-column h4,
+footer .footer-column td,
+footer .footer-column th,
+footer p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.footer-text,
+.footer2-text h4 {
+    color: #c7a17a;
+}
+.footer-column input{
+    border: none;
+    padding: 8px;
+    text-decoration: none;
+    margin-top: 5px;
+}
+.footer-column input[type="button"]{
+    background-color: #c7a17a;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+.footer2-text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* Footer */
+.row2 {
+    background-color: black;
+    width: 110%;
+    height: 120px;
+    display: inline-flex;
+    margin-right: auto;
+    margin-top: -3px;
+    text-align: center;
+    color: white;
+}
+.footer-column2 {
+    color: white;
+    width: 30%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    font-size: larger;
+    margin-top: 30px;
+}
+.footer-column3 {
+    width: 30%;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 30px;
+    list-style: none;
+}
+.footer-column3 li {
+    display: inline-flex;
+}
+.footer-column3 a {
+    color: white;
+}
+.footer-column4 {
+    width: 30%;
+    color: white;
+    margin-top: 50px;
+}
